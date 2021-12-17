@@ -1,7 +1,7 @@
 import random
 
 def ContinueCreator():
-    contin = input("\nЕсли хотите начать заново, нажмите enter, для остановки - 'x' \n")
+    contin = input("\nЕсли хотите начать заново, нажмите enter, для остановки - 'x'")
 
     if contin == 'x':
         exit()
@@ -99,6 +99,7 @@ def MatrixSelfCreator(m): #Функция создания матрицы вру
 
 def Do():
 
+    global m
     while True:
 
         try:
